@@ -108,6 +108,9 @@ PRODUCT_PACKAGES += \
     SystemExtendedTheme \
     SettingsExtendedTheme \
     DuiExtendedTheme \
+    SystemChocolateTheme \
+    SettingsChocolateTheme \
+    DuiChocolateTheme \
 
 # Extra tools
 PRODUCT_PACKAGES += \
