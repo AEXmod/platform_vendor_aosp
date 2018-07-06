@@ -116,6 +116,19 @@ PRODUCT_PACKAGES += \
     SystemChocolateTheme \
     SettingsChocolateTheme \
     DuiChocolateTheme \
+    ContactsThemeBlack \
+    DialerThemeBlack \
+    FilesThemeBlack \
+    ContactsThemeDark \
+    DialerThemeDark \
+    FilesThemeDark \
+    ContactsThemeChocolate \
+    DialerThemeChocolate \
+    FilesThemeChocolate \
+    ContactsThemeExtended \
+    DialerThemeExtended \
+    FilesThemeExtended \
+
 
 # Extra tools
 PRODUCT_PACKAGES += \
