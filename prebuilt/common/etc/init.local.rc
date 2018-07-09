@@ -151,3 +151,16 @@ on property:sys.io.scheduler=bfq
     write /sys/block/sda/queue/iosched/slice_idle 0
     write /sys/block/sde/queue/iosched/slice_idle 0
     write /sys/block/dm-0/queue/iosched/slice_idle 0
+
+# Run init.d service on startup
+on boot
+    start sysinit
+
+on property:vold.decrypt=trigger_restart_framework 
+    start sysinit
+
+# sysinit (/system/etc/init.d)
+service sysinit /system/bin/sysinit
+    user root
+    oneshot
+    disabled
